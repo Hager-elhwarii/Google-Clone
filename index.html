@@ -2,16 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search Textbox</title>
+    <title>Google Clone</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="google.svg">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </head>
   <body>
-    <form method="get" action="https://www.google.com/search">
-      <input type="text" name="q" class="search" placeholder="Search here!" />
-      <input type="submit" class="submit" value="Search" />
-    </form>
-    <script src="script.js"></script>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">gmail</a></li>
+          <li><a href="#">images</a></li>
+          <li class="icon"><iconify-icon icon="mdi:dots-grid"></iconify-icon></li>
+          <li><img src="https://i.ibb.co/dMrg2Qz/Whats-App-Image-2023-04-18-at-12-11-54-AM.jpg" ></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- <form action="https://www.google.com/search" method="get">
+      <input placeholder="search here..." type="text" name="q" required />
+      <input type="submit" value="Search" name="submit" />
+    </form> -->
   </body>
 </html>
