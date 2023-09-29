@@ -1,7 +1,7 @@
-# Search-Textbox
-- Simple search textbox, that when mouse is on it (on focus), its width increases gradually, and when mouse is out (on blur), it backs gradually to its original width.
+# Google-Clone
+- This web app allows users to search for information on the internet, similar to the Google search engine. It is powered by the Google Custom Search API, which allows it to display results that are exactly the same as those provided by Google.
 
 ## :camera_flash: Screenshoot 
 
-![image](https://github.com/Hager-elhwarii/Search-Textbox/assets/80959882/1530e056-9a2b-4b05-bc8e-3f13d7b29434)
+![image](https://github.com/Hager-elhwarii/Search-Textbox/assets/80959882/4aa2554b-30de-41e9-adaa-a97600fafb99)
 
