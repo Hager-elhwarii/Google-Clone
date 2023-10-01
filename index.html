@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Clone</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="google.svg">
+    <link rel="icon" href="Images/google.svg" />
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </head>
   <body>
@@ -14,11 +14,58 @@
         <ul>
           <li><a href="#">gmail</a></li>
           <li><a href="#">images</a></li>
-          <li class="icon"><iconify-icon icon="mdi:dots-grid"></iconify-icon></li>
-          <li><img src="https://i.ibb.co/dMrg2Qz/Whats-App-Image-2023-04-18-at-12-11-54-AM.jpg" ></li>
+          <li class="icon">
+            <iconify-icon icon="mdi:dots-grid"></iconify-icon>
+          </li>
+          <li>
+            <img
+              class="profile-img"
+              src="https://i.ibb.co/dMrg2Qz/Whats-App-Image-2023-04-18-at-12-11-54-AM.jpg"
+            />
+          </li>
         </ul>
       </nav>
     </header>
+
+    <main>
+      <div class="wrapper">
+        <div>
+          <img
+            class="google-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+            alt="Google word with four colors"
+          />
+        </div>
+        <div>
+          <form action="get">
+            <div class="block-one">
+              <iconify-icon icon="ic:baseline-search" class="search-icon"></iconify-icon>
+
+              <input type="text" />
+            </div>
+            <div class="block-two">
+              <img
+                class="mic-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg"
+                alt=""
+              />
+              <img
+                class="search-byImg-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Lens_Icon.svg"
+                alt=""
+              />
+            </div>
+          </form>
+        </div>
+        <div>
+          <button>google search</button>
+          <button>i'm feeling lucky</button>
+        </div>
+        <div>
+          <p>google offered in: <a href="#">العربية</a></p>
+        </div>
+      </div>
+    </main>
     <!-- <form action="https://www.google.com/search" method="get">
       <input placeholder="search here..." type="text" name="q" required />
       <input type="submit" value="Search" name="submit" />
