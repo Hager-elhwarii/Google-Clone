@@ -1,4 +1,4 @@
-# Google Clone
+# Google Clone :bulb:
 <a name="readme-top"></a>
 
 - This web app allows users to search for information on the internet, similar to the Google search engine, And displays results that are exactly the same as those provided by Google.
