@@ -4,22 +4,20 @@
 - This web app allows users to search for information on the internet, similar to the Google search engine, And displays results that are exactly the same as those provided by Google.
 
 ## :camera_flash: Screenshoot 
-
-![image](https://github.com/Hager-elhwarii/Search-Textbox/assets/80959882/4aa2554b-30de-41e9-adaa-a97600fafb99)
+![image](https://github.com/Hager-elhwarii/Google-Clone/assets/80959882/2925186f-6de5-4b5a-8133-0a4ff78ca894)
 
 ## 🚀 Deployment
-  - [Demo Link](https://color-range-dottie.netlify.app/)
+  - [Demo Link](https://google-clone-dottie.netlify.app/)
 
 ## 💻 Tech stack
 
 - Html
 - CSS
-- JavaScript
 
 ##  🔐 Run locally 
 
 ```bash
-git clone https://github.com/Hager-elhwarii/Color-Range.git
+git clone https://github.com/Hager-elhwarii/Google-Clone.git
 ```
 
 ## 🦄   Author
