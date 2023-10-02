@@ -11,6 +11,10 @@
   font-size: 62.5%;
 }
 
+body {
+  font-family: arial, sans-serif;
+}
+
 /*====================
       NAVBAR STYLE
   ==================== */
@@ -28,7 +32,6 @@ nav > ul a {
   text-decoration: none;
   text-transform: capitalize;
   font-size: 1rem;
-  font-family: arial, sans-serif;
   letter-spacing: 0.3px;
 }
 .icon {
@@ -46,38 +49,46 @@ nav > ul a {
 /*======================
     SEARCH INPUT STYLE
   ====================== */
-/* main {
-    position: relative;
-} */
+
 .wrapper {
-  height: 93vh;
+  height: 71vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+main {
+  margin: 0 auto;
+  display: grid;
   justify-content: center;
 }
-form {
+.flex-wrapper {
   width: 100%;
+  max-width: 474px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid red;
+  border: 1px solid #dcdcdc;
+  padding: 0.94rem 1.4rem;
+  border-radius: 20px;
 }
-form input[type='text'] {
- flex: 1;
- padding: 0.4rem 0;
+.flex-wrapper:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 1px;
 }
+
 .block-one {
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 .block-two {
-    border: 2px solid green;
-    height: 100%;
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.4rem;
 }
 main img {
   width: 100%;
@@ -86,17 +97,57 @@ main img {
   max-width: 250px;
 }
 .google-logo {
-  width: 90%;
+  width: 46%;
 }
 .mic-icon {
-  width: 3%;
+  width: 100%;
+  max-width: 4.6%;
+  min-width: 4.2%;
 }
 .search-byImg-icon {
-  width: 4.8%;
+  width: 100%;
+  max-width: 7.8%;
+  min-width: 7.4%;
 }
 .search-icon {
-    /* width: 100%; */
-    font-size: 1.9rem;
-    font-weight: 900;
-    color: #727272;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #abaaaa;
+}
+.block-one input {
+  border: none;
+  outline: none;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.btns button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: darkslategray;
+  border: none;
+  background-color: #f8f7f7;
+  border: 1px solid #f8f7f7;
+}
+.btns button:hover {
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.btns + div::first-letter {
+  text-transform: capitalize;
+}
+.btns + div {
+  font-size: 1rem;
+  color: darkslategray;
+}
+.btns + div a {
+  text-decoration: none;
+  padding-left: 0.4rem;
+}
+.btns + div a:hover {
+  text-decoration: underline;
 }
