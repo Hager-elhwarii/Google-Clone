@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Clone</title>
+    <title>Google</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="Images/google.svg" />
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </head>
   <body>
+
     <header>
       <nav>
         <ul>
@@ -31,6 +32,7 @@
     </header>
 
     <main>
+
       <div class="wrapper">
         <div>
           <img
@@ -40,12 +42,12 @@
           />
         </div>
         <div>
-          <form action="get">
+          <form  action="https://www.google.com/search" method="get" >
             <div class="flex-wrapper">
               <div class="block-one">
                 <iconify-icon icon="ic:baseline-search" class="search-icon"></iconify-icon>
   
-                <input type="text" />
+                <input type="text" name="q" />
               </div>
               <div class="block-two">
                 <img
@@ -70,10 +72,31 @@
           <p>google offered in: <a href="#">العربية</a></p>
         </div>
       </div>
+
     </main>
-    <!-- <form action="https://www.google.com/search" method="get">
-      <input placeholder="search here..." type="text" name="q" required />
-      <input type="submit" value="Search" name="submit" />
-    </form> -->
+    
+    <footer>
+      <div>
+      <p>egypt</p>
+      </div>
+      <hr/>
+      <div>
+        <div>
+          <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">advertising</a></li>
+            <li><a href="#">business</a></li>
+            <li><a href="#">how search works</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#">privacy</a></li>
+            <li><a href="#">terms</a></li>
+            <li><a href="#">settings</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
